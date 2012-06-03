@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B25F0792157C2D1F000D2818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F0791157C2D1F000D2818 /* UIKit.framework */; };
+		B25F0794157C2D1F000D2818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F0793157C2D1F000D2818 /* Foundation.framework */; };
+		B25F0796157C2D1F000D2818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F0795157C2D1F000D2818 /* CoreGraphics.framework */; };
+		B25F079C157C2D1F000D2818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25F079A157C2D1F000D2818 /* InfoPlist.strings */; };
+		B25F079E157C2D1F000D2818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F079D157C2D1F000D2818 /* main.m */; };
+		B25F07A2157C2D1F000D2818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F07A1157C2D1F000D2818 /* AppDelegate.m */; };
+		B25F07A5157C2D1F000D2818 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25F07A3157C2D1F000D2818 /* MainStoryboard_iPhone.storyboard */; };
+		B25F07A8157C2D20000D2818 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25F07A6157C2D20000D2818 /* MainStoryboard_iPad.storyboard */; };
+		B25F07AB157C2D20000D2818 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F07AA157C2D20000D2818 /* FirstViewController.m */; };
+		B25F07AD157C2D20000D2818 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F07AC157C2D20000D2818 /* first.png */; };
+		B25F07AF157C2D20000D2818 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F07AE157C2D20000D2818 /* first@2x.png */; };
+		B25F07B2157C2D20000D2818 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F07B1157C2D20000D2818 /* SecondViewController.m */; };
+		B25F07B4157C2D20000D2818 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F07B3157C2D20000D2818 /* second.png */; };
+		B25F07B6157C2D20000D2818 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F07B5157C2D20000D2818 /* second@2x.png */; };
+		B25F07BE157C2D20000D2818 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F07BD157C2D20000D2818 /* SenTestingKit.framework */; };
+		B25F07BF157C2D20000D2818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F0791157C2D1F000D2818 /* UIKit.framework */; };
+		B25F07C0157C2D20000D2818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F0793157C2D1F000D2818 /* Foundation.framework */; };
+		B25F07C8157C2D20000D2818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25F07C6157C2D20000D2818 /* InfoPlist.strings */; };
+		B25F07CB157C2D20000D2818 /* SteamedBroccoliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F07CA157C2D20000D2818 /* SteamedBroccoliTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25F07C1157C2D20000D2818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25F0784157C2D1F000D2818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25F078C157C2D1F000D2818;
+			remoteInfo = SteamedBroccoli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B25F078D157C2D1F000D2818 /* SteamedBroccoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamedBroccoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F0791157C2D1F000D2818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B25F0793157C2D1F000D2818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B25F0795157C2D1F000D2818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B25F0799157C2D1F000D2818 /* SteamedBroccoli-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SteamedBroccoli-Info.plist"; sourceTree = "<group>"; };
+		B25F079B157C2D1F000D2818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B25F079D157C2D1F000D2818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25F079F157C2D1F000D2818 /* SteamedBroccoli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SteamedBroccoli-Prefix.pch"; sourceTree = "<group>"; };
+		B25F07A0157C2D1F000D2818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B25F07A1157C2D1F000D2818 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B25F07A4157C2D1F000D2818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B25F07A7157C2D20000D2818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B25F07A9157C2D20000D2818 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B25F07AA157C2D20000D2818 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B25F07AC157C2D20000D2818 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B25F07AE157C2D20000D2818 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B25F07B0157C2D20000D2818 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B25F07B1157C2D20000D2818 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B25F07B3157C2D20000D2818 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B25F07B5157C2D20000D2818 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B25F07BC157C2D20000D2818 /* SteamedBroccoliTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamedBroccoliTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F07BD157C2D20000D2818 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B25F07C5157C2D20000D2818 /* SteamedBroccoliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SteamedBroccoliTests-Info.plist"; sourceTree = "<group>"; };
+		B25F07C7157C2D20000D2818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B25F07C9157C2D20000D2818 /* SteamedBroccoliTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamedBroccoliTests.h; sourceTree = "<group>"; };
+		B25F07CA157C2D20000D2818 /* SteamedBroccoliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteamedBroccoliTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25F078A157C2D1F000D2818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F0792157C2D1F000D2818 /* UIKit.framework in Frameworks */,
+				B25F0794157C2D1F000D2818 /* Foundation.framework in Frameworks */,
+				B25F0796157C2D1F000D2818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F07B8157C2D20000D2818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F07BE157C2D20000D2818 /* SenTestingKit.framework in Frameworks */,
+				B25F07BF157C2D20000D2818 /* UIKit.framework in Frameworks */,
+				B25F07C0157C2D20000D2818 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B25F0782157C2D1F000D2818 = {
+			isa = PBXGroup;
+			children = (
+				B25F0797157C2D1F000D2818 /* SteamedBroccoli */,
+				B25F07C3157C2D20000D2818 /* SteamedBroccoliTests */,
+				B25F0790157C2D1F000D2818 /* Frameworks */,
+				B25F078E157C2D1F000D2818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B25F078E157C2D1F000D2818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25F078D157C2D1F000D2818 /* SteamedBroccoli.app */,
+				B25F07BC157C2D20000D2818 /* SteamedBroccoliTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25F0790157C2D1F000D2818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25F0791157C2D1F000D2818 /* UIKit.framework */,
+				B25F0793157C2D1F000D2818 /* Foundation.framework */,
+				B25F0795157C2D1F000D2818 /* CoreGraphics.framework */,
+				B25F07BD157C2D20000D2818 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25F0797157C2D1F000D2818 /* SteamedBroccoli */ = {
+			isa = PBXGroup;
+			children = (
+				B25F07A0157C2D1F000D2818 /* AppDelegate.h */,
+				B25F07A1157C2D1F000D2818 /* AppDelegate.m */,
+				B25F07A3157C2D1F000D2818 /* MainStoryboard_iPhone.storyboard */,
+				B25F07A6157C2D20000D2818 /* MainStoryboard_iPad.storyboard */,
+				B25F07A9157C2D20000D2818 /* FirstViewController.h */,
+				B25F07AA157C2D20000D2818 /* FirstViewController.m */,
+				B25F07AC157C2D20000D2818 /* first.png */,
+				B25F07AE157C2D20000D2818 /* first@2x.png */,
+				B25F07B0157C2D20000D2818 /* SecondViewController.h */,
+				B25F07B1157C2D20000D2818 /* SecondViewController.m */,
+				B25F07B3157C2D20000D2818 /* second.png */,
+				B25F07B5157C2D20000D2818 /* second@2x.png */,
+				B25F0798157C2D1F000D2818 /* Supporting Files */,
+			);
+			path = SteamedBroccoli;
+			sourceTree = "<group>";
+		};
+		B25F0798157C2D1F000D2818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25F0799157C2D1F000D2818 /* SteamedBroccoli-Info.plist */,
+				B25F079A157C2D1F000D2818 /* InfoPlist.strings */,
+				B25F079D157C2D1F000D2818 /* main.m */,
+				B25F079F157C2D1F000D2818 /* SteamedBroccoli-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25F07C3157C2D20000D2818 /* SteamedBroccoliTests */ = {
+			isa = PBXGroup;
+			children = (
+				B25F07C9157C2D20000D2818 /* SteamedBroccoliTests.h */,
+				B25F07CA157C2D20000D2818 /* SteamedBroccoliTests.m */,
+				B25F07C4157C2D20000D2818 /* Supporting Files */,
+			);
+			path = SteamedBroccoliTests;
+			sourceTree = "<group>";
+		};
+		B25F07C4157C2D20000D2818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25F07C5157C2D20000D2818 /* SteamedBroccoliTests-Info.plist */,
+				B25F07C6157C2D20000D2818 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25F078C157C2D1F000D2818 /* SteamedBroccoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25F07CE157C2D20000D2818 /* Build configuration list for PBXNativeTarget "SteamedBroccoli" */;
+			buildPhases = (
+				B25F0789157C2D1F000D2818 /* Sources */,
+				B25F078A157C2D1F000D2818 /* Frameworks */,
+				B25F078B157C2D1F000D2818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamedBroccoli;
+			productName = SteamedBroccoli;
+			productReference = B25F078D157C2D1F000D2818 /* SteamedBroccoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25F07BB157C2D20000D2818 /* SteamedBroccoliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25F07D1157C2D20000D2818 /* Build configuration list for PBXNativeTarget "SteamedBroccoliTests" */;
+			buildPhases = (
+				B25F07B7157C2D20000D2818 /* Sources */,
+				B25F07B8157C2D20000D2818 /* Frameworks */,
+				B25F07B9157C2D20000D2818 /* Resources */,
+				B25F07BA157C2D20000D2818 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25F07C2157C2D20000D2818 /* PBXTargetDependency */,
+			);
+			name = SteamedBroccoliTests;
+			productName = SteamedBroccoliTests;
+			productReference = B25F07BC157C2D20000D2818 /* SteamedBroccoliTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25F0784157C2D1F000D2818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B25F0787157C2D1F000D2818 /* Build configuration list for PBXProject "SteamedBroccoli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B25F0782157C2D1F000D2818;
+			productRefGroup = B25F078E157C2D1F000D2818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25F078C157C2D1F000D2818 /* SteamedBroccoli */,
+				B25F07BB157C2D20000D2818 /* SteamedBroccoliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25F078B157C2D1F000D2818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F079C157C2D1F000D2818 /* InfoPlist.strings in Resources */,
+				B25F07A5157C2D1F000D2818 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B25F07A8157C2D20000D2818 /* MainStoryboard_iPad.storyboard in Resources */,
+				B25F07AD157C2D20000D2818 /* first.png in Resources */,
+				B25F07AF157C2D20000D2818 /* first@2x.png in Resources */,
+				B25F07B4157C2D20000D2818 /* second.png in Resources */,
+				B25F07B6157C2D20000D2818 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F07B9157C2D20000D2818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F07C8157C2D20000D2818 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B25F07BA157C2D20000D2818 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25F0789157C2D1F000D2818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F079E157C2D1F000D2818 /* main.m in Sources */,
+				B25F07A2157C2D1F000D2818 /* AppDelegate.m in Sources */,
+				B25F07AB157C2D20000D2818 /* FirstViewController.m in Sources */,
+				B25F07B2157C2D20000D2818 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F07B7157C2D20000D2818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F07CB157C2D20000D2818 /* SteamedBroccoliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B25F07C2157C2D20000D2818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25F078C157C2D1F000D2818 /* SteamedBroccoli */;
+			targetProxy = B25F07C1157C2D20000D2818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B25F079A157C2D1F000D2818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F079B157C2D1F000D2818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B25F07A3157C2D1F000D2818 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F07A4157C2D1F000D2818 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B25F07A6157C2D20000D2818 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F07A7157C2D20000D2818 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B25F07C6157C2D20000D2818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F07C7157C2D20000D2818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B25F07CC157C2D20000D2818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B25F07CD157C2D20000D2818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25F07CF157C2D20000D2818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteamedBroccoli/SteamedBroccoli-Prefix.pch";
+				INFOPLIST_FILE = "SteamedBroccoli/SteamedBroccoli-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B25F07D0157C2D20000D2818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteamedBroccoli/SteamedBroccoli-Prefix.pch";
+				INFOPLIST_FILE = "SteamedBroccoli/SteamedBroccoli-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B25F07D2157C2D20000D2818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteamedBroccoli.app/SteamedBroccoli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteamedBroccoli/SteamedBroccoli-Prefix.pch";
+				INFOPLIST_FILE = "SteamedBroccoliTests/SteamedBroccoliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B25F07D3157C2D20000D2818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteamedBroccoli.app/SteamedBroccoli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteamedBroccoli/SteamedBroccoli-Prefix.pch";
+				INFOPLIST_FILE = "SteamedBroccoliTests/SteamedBroccoliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25F0787157C2D1F000D2818 /* Build configuration list for PBXProject "SteamedBroccoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F07CC157C2D20000D2818 /* Debug */,
+				B25F07CD157C2D20000D2818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25F07CE157C2D20000D2818 /* Build configuration list for PBXNativeTarget "SteamedBroccoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F07CF157C2D20000D2818 /* Debug */,
+				B25F07D0157C2D20000D2818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B25F07D1157C2D20000D2818 /* Build configuration list for PBXNativeTarget "SteamedBroccoliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F07D2157C2D20000D2818 /* Debug */,
+				B25F07D3157C2D20000D2818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25F0784157C2D1F000D2818 /* Project object */;
+}
